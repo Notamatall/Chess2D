@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4257538972594702750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4257538972594702744}
+  - component: {fileID: 4257538972594702745}
+  m_Layer: 0
+  m_Name: WhiteSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4257538972594702744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4257538972594702750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.5, y: -4.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4257538972594702745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4257538972594702750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae74bfd794938946a9b171a3b66e22e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pawnPrefab: {fileID: 193264770445350646, guid: 87c764610ae42e9408059edc00739de2, type: 3}
+  kingPrefab: {fileID: 7264734189962880076, guid: 3528eebd0f74aa94e80b742cfbf04e9f, type: 3}
+  queenPrefab: {fileID: 5220855544382554699, guid: 7d55cfad07afea94a9b3371bf72bfe4b, type: 3}
+  knightPrefab: {fileID: 934434057558171986, guid: 28c6ff35acb1a2444a6511ac123ad341, type: 3}
+  bishopPrefab: {fileID: 2293541638320920524, guid: 1fb6c76f52967534281c1262d814d08f, type: 3}
+  rookPrefab: {fileID: 7653612089801460032, guid: 81226136e92b53a47a2dd93c562500e2, type: 3}
